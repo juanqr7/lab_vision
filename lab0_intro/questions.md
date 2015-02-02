@@ -1,27 +1,26 @@
 # Warmup Questions
 
 1.  What is the clone url of this repository?
-    >   answer
+    >   https://github.com/juanqr7/lab_vision/edit/master/lab0_intro/questions.md
 
 2.  What is the output of the ``cal`` command?
 
-        multi
-        line
-        answer
+        The output is the calendar of the actual month
+        
 
 # Homework Questions
 
 1.  What is the ``grep``command?
-    >   answer
+    >  The grep command search for lines containing a given word or pattern into a given file or directory
 
 2.  What is a *makefile*?
-    >   answer
+    >   Is a file that describes the relationships among files in a given program and declare commands for updating each of those files.
 
 3.  What is *git*?
-    >   answer
+    >   Git is a distributed version control system, this is system that records changes to a file or set of files over time and allows specific versions to be recalled later. The advantage of Git is that repositories are copied exactly in every computer and server connected to it. 
 
 4.  What does the ``-prune`` option of ``find`` do? Give an example
-    >   answer
+    >   Find looks a file for givenname or path, -prune option skips the given directory to avoid descending to it. 
 
 5.  Where is the file ``xxxxxx``
     >   answer
