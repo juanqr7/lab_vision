@@ -20,10 +20,11 @@
     >   Git is a distributed version control system, this is system that records changes to a file or set of files over time and allows specific versions to be recalled later. The advantage of Git is that repositories are copied exactly in every computer and server connected to it. 
 
 4.  What does the ``-prune`` option of ``find`` do? Give an example
-    >   Find looks a file for givenname or path, -prune option skips the given directory to avoid descending to it. 
+    >   Find looks a file for given name or path, -prune option skips the given directory to avoid descending to it. Example:
+find . -path './Homeworks' -prune will look for paths except directory with the name Homeworks.
 
 5.  Where is the file ``xxxxxx``
-    >   answer
+    >   
 
 6.  How many files with ``gnu`` in its name are in ``dir``
     >   answer
@@ -32,22 +33,22 @@
     >   answer
 
 8.  What does the ``cut`` command do?
-    >   answer
+    >   The cut command removes sections of each line of a file or files.
 
 9.  What does the ``wget`` command do?
-    >   answer
+    >   The wget command downloads files over a network.
 
 10.  What does the ``diff`` command do?
-    >   answer
+    >   The diff command analyzes two files and prints the lines that are different.
 
 11.  How many users exist in *Guitaca*?
-    >   answer
+    >   Using command "cat /etc/passwd" on system *Guitaca*, taking output to a .txt file and using wc -l command on the .txt file, 48 users are found.
 
 12. What command will produce a table of Users and Shells sorted by shell (tip: using ``cut`` and ``sort``)
-    >   answer
+    >   Using cut -f 1,7 -d':' /etc/passwd | sort -t':' -k2. First, information is taken from /etc/passwd and the 1 and 7 columns are cut using delimition as :, then fields are delimited again by ':' and the information is sorted alphabetically using the second field, which is shell. 
 
 13. What command will produce the number of users with shell ``/sbin/nologin`` (tip: using ``grep`` and ``wc``)
-    >   answer
+    >   Using grep "/sbin/nologin" "/etc/passwd" | wc, grep highlights all words with the characters "/sbin/nologin" in "/etc/passwd" and then are counted by the wc command. 
 
 14.  What is the name of the linux distribution running on *Guitaca*?
     >   answer
