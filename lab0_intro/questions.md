@@ -24,13 +24,13 @@
 find . -path './Homeworks' -prune will look for paths except directory with the name Homeworks.
 
 5.  Where is the file ``xxxxxx``
-    >   
+    >   Command find / -iname 'xxxxxx'. Looks for the file named 'xxxxxx' from the root. No paths were found 
 
 6.  How many files with ``gnu`` in its name are in ``dir``
-    >   answer
+    >   Command find /usr/src -iname '*gnu*' looks in directory path /usr/src for any file containing the word gnu anywhere in the file name  
 
 7.  How many files contain ``gpl`` inside in ``dir``
-    >   answer
+    >   Command grep "gpl" /usr/src | wc -l, looks in the directory /usr/src for files containing the word gpl, the output is counted by wc -l
 
 8.  What does the ``cut`` command do?
     >   The cut command removes sections of each line of a file or files.
@@ -56,7 +56,8 @@ find . -path './Homeworks' -prune will look for paths except directory with the 
 15. Create a script for finding duplicate images based on their content (tip: hash or checksum)
     You may look in the internet for ideas, but please indicate the source of any code you use
     Save this script as ``find_duplicates.sh`` in this directory and commit your changes to github
+Check script
 
 16. How many unique images are in the ``sipi_images`` folder?
-    >   answer
+    >   215 images
     
