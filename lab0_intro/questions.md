@@ -28,10 +28,10 @@ find . -path './Homeworks' -prune will look for paths except directory with the 
 directory /etc/ were found but permission is denied 
 
 6.  How many files with ``gnu`` in its name are in ``dir``
-    >   Command find /usr/src -iname '*gnu*' looks in directory path /usr/src for any file containing the word gnu anywhere in the file name  
+    >   Command find /usr/src -iname '*gnu*' looks in directory path /usr/src for any file containing the word gnu anywhere in the file name. No files were found  
 
 7.  How many files contain ``gpl`` inside in ``dir``
-    >   Command grep "gpl" /usr/src | wc -l, looks in the directory /usr/src for files containing the word gpl, the output is counted by wc -l
+    >   Command grep "gpl" /usr/src | wc -l, looks in the directory /usr/src for files containing the word gpl, the output is counted by wc -l. No files were found
 
 8.  What does the ``cut`` command do?
     >   The cut command removes sections of each line of a file or files.
