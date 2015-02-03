@@ -51,7 +51,7 @@ find . -path './Homeworks' -prune will look for paths except directory with the 
     >   Using grep "/sbin/nologin" "/etc/passwd" | wc, grep highlights all words with the characters "/sbin/nologin" in "/etc/passwd" and then are counted by the wc command. 
 
 14.  What is the name of the linux distribution running on *Guitaca*?
-    >   answer
+    >   Is fedora 20 (Heisenbug)
 
 15. Create a script for finding duplicate images based on their content (tip: hash or checksum)
     You may look in the internet for ideas, but please indicate the source of any code you use
