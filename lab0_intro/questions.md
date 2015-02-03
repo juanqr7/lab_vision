@@ -24,7 +24,8 @@
 find . -path './Homeworks' -prune will look for paths except directory with the name Homeworks.
 
 5.  Where is the file ``xxxxxx``
-    >   Command find / -iname 'xxxxxx'. Looks for the file named 'xxxxxx' from the root. No paths were found 
+    >   Command find / -iname 'xxxxxx'. Looks for the file named 'xxxxxx' from the root. Paths leading to
+directory /etc/ were found but permission is denied 
 
 6.  How many files with ``gnu`` in its name are in ``dir``
     >   Command find /usr/src -iname '*gnu*' looks in directory path /usr/src for any file containing the word gnu anywhere in the file name  
