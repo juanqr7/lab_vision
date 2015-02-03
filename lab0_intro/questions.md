@@ -59,5 +59,5 @@ find . -path './Homeworks' -prune will look for paths except directory with the 
 Check script
 
 16. How many unique images are in the ``sipi_images`` folder?
-    >   215 images
+    >   212 images. 
     
