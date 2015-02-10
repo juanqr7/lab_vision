@@ -81,12 +81,12 @@ The [imread](http://www.mathworks.com/help/matlab/ref/imread.html) command is us
     
     What is the dimension of the output?
 
-    >   Answer
+    >   256 x 256
 
 3.  Read the ``4.2.03`` image
     What is the dimension of the output?
 
-    >   Answer
+    >   512 x 512 x 3
 
 ## Displaying Images
 
@@ -99,7 +99,8 @@ The following commands can be used for displaying images
 2.  Try displaying the images read in the previous point using both commands
 3.  What are the differences?
 
-    >   Answer
+    >   La primera imagen esta en escala de grises. La segunda se muestra a color en escala RGB. 
+    imshow puede recibir como argumento el nombre el archivo y la matriz de pixeles, e image recibe como argumento la matriz de pixeles y ademas muestra las coordenadas x y.
 
 ## Writing Images
 
