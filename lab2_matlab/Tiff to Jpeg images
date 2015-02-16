@@ -1,5 +1,5 @@
-%% Save this script with 'name' and write in the terminal
-%% 
+%% Save this script as 'name'.m in home folder and write in the terminal
+%% matlab -nodisplay -nosplash 'name'.m
 
 
 
