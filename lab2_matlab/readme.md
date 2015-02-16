@@ -165,7 +165,7 @@ These filters can be applied to a an image in order to remove noise.
 3.  Try different sizes for the filters
 4.  Which filter works best for salt & pepper noise?
 
-    > Answer
+    > El filtro que mejor funciona es el filtro mediano, elimina el ruido 'salt & pepper' sin distorcionar la imagen
 
 For more on noise removal read http://www.mathworks.com/help/images/noise-removal.html
 
@@ -178,7 +178,7 @@ which can be otained from [fspecial](http://www.mathworks.com/help/images/ref/fs
 2.  Try different sizes for the filters
 3.  What differences do you notice?
 
-    > Answer
+    > El filtro gaussiano preserva mejor los bordes de la imagen. Con el aumento del tamaño del filtro, la distorción del filtro promedio aumenta y la imagen se vuelve irreconocible, además de inducir cambios en los bordes. Al ser el filtro gaussiano un filtro no lineal, el aumento del tamaño del filtro no tiene un efecto tan marcado en el suavizado de la imagen y no se distorciona en gran magnitud.   
 
 ### Sharpen
 
@@ -186,11 +186,11 @@ The [imsharpen](http://www.mathworks.com/help/images/ref/imsharpen.html) functio
 
 1.  Sharp the ``5.1.12`` image. What do you notice?
 
-    > Answer
+    > Los bordes se resaltan y se ve la imagen con mayor detalle.
 
 2.  Sharp a blurred image. What do you notice?
 
-    > Answer
+    > La imagen se ve menos borrosa, se contrastan las lineas.
 
 ### Edge detection
 
@@ -205,7 +205,7 @@ Notice that the last two filters detect horizontal edges, in order to detect ver
 1.  Try applying this filters
 2.  What is the difference between prewitt and sobel?
 
-    > Answer
+    > El filtro sobel muestra los bordes con una magnitud de blanco mayor. Los bordes resaltan más que en el filtro de Prewit
 
 More sophisticated methods for finding edges can be found in the following pages
     -   http://www.mathworks.com/discovery/edge-detection.html
@@ -260,11 +260,11 @@ The [impyramid](http://www.mathworks.com/help/images/ref/impyramid.html) functio
 2.  Create a four level pyramid from the ``5.1.12`` clock  image
 3.  At what level does the people in the picture dissappear?
 
-    >   Answer
+    >   En el nivel 2 las personas se muestran irreconocibles
     
 4.  At what level does the numbers in the clock disappear?
 
-    >   Answer
+    >   En el nivel 2 los números también desaparecen y no se reconocen
 
 ## Template Matching
 
@@ -304,7 +304,7 @@ The [norm2corrx](http://www.mathworks.com/help/images/ref/normxcorr2.htm) can be
     ```
 6.  Explain what the above code does
 
-    > Answer
+    > El código utiliza la cross correlación normalizada para encontrar los pixeles que más se parecen a la plantilla utilizada. Se asegura el tamaño de la imagen (512x512), se utilizan los valores de la correlación para crear un canal de color en el espacio ycbcr, se pasa la imagen a escala de grises para crear el canal de luminancia y se crea un nuevo canal de color (todos los valores de 0.5) para concatenarlos dentro de una imagen en el espacio ycbcr. Finalmente se cambia el formato de color a rgb y se muestra la imagen.
     
 7.  Now lets find the train in the next frame, read image ``motion05.512.tiff``.
 8.  Apply the procedure written above to it (use the train template from the past frame)
