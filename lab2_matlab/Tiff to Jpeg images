@@ -24,7 +24,7 @@ for i=1:1:length(N)
     f = N{i};
     im = imread(f);
     ind = num2str(i);
-    archN = strcat('archivo','',ind)
+    archN = strcat('archivo','',ind,'.jpeg')
     imwrite(im,archN,'JPEG');
     
 end
