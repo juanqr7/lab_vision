@@ -151,7 +151,7 @@ We can do this to simulate difficult capture conditions, and evaluate the algori
 2.  Try the diffente noise types, and save the noisy images to the repository (5 images)
 3.  Try saving noisy images as jpg, what happens?
 
-    > Answer
+    > La imagen en jpg se ve un poco más oscura. Al ser jpg un formato que se guarda en menos memoria se observa un efecto de compresión. 
 
 ### Median filter
 
