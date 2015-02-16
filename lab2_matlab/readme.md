@@ -310,7 +310,7 @@ The [norm2corrx](http://www.mathworks.com/help/images/ref/normxcorr2.htm) can be
 8.  Apply the procedure written above to it (use the train template from the past frame)
 9.  What are the limitations of this method?
 
-    > Answer
+    > El algoritmo encuentra los patrones de correlación entre la imagen y la plantilla. Al observar el resultado se evidencia que el método, aunque logra identificar el tren, muestra valores de correlación altos en otros lugares de la imagen. Teniendo en cuenta que la imagen original presenta poco contraste entre los objetos, es muy probable que se hayan encontrado muchos valores de correlación altos debido a la "homogenización" en los valores de los pixeles de la imagen.
 
 See [here](http://www.mathworks.com/help/images/examples/registering-an-image-using-normalized-cross-correlation.html)
 another example.
