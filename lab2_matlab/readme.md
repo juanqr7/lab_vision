@@ -178,7 +178,7 @@ which can be otained from [fspecial](http://www.mathworks.com/help/images/ref/fs
 2.  Try different sizes for the filters
 3.  What differences do you notice?
 
-    > El filtro gaussiano preserva mejor los bordes de la imagen. Con el aumento del tamaño del filtro, la distorción del filtro promedio aumenta y la imagen se vuelve irreconocible, además de inducir cambios en los bordes. Al ser el filtro gaussiano un filtro no lineal, el aumento del tamaño del filtro no tiene un efecto tan marcado en el suavizado de la imagen y no se distorciona en gran magnitud.   
+    > El filtro gaussiano preserva mejor los bordes de la imagen. Con el aumento del tamaño del filtro, la distorción del filtro promedio aumenta y la imagen se vuelve irreconocible, además de inducir cambios en los bordes. Al ser el filtro gaussiano un filtro no lineal, el aumento del tamaño del filtro no tiene un efecto tan marcado en el suavizado de la imagen, esto permite inducir una distorción muy suave.   
 
 ### Sharpen
 
