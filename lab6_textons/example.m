@@ -1,5 +1,6 @@
 
 addpath('lib')
+addpath('C:\Users\js.cuellar169\Dropbox\Vision Artificial\Lab6\textures\train')
 clear all;close all;clc;
 
 % create filter bank
@@ -7,7 +8,7 @@ clear all;close all;clc;
 
 
 % imagen de referencia para construir diccionario de textones
-im1=double(rgb2gray(imread('9_1_s.bmp')))/255;
+im1=double(rgb2gray(imread('T01_01.jpg')))/255;
 im2=double(rgb2gray(imread('6_1_s.bmp')))/255;
 im = [im1 im2];
 % numero de textones en diccionario
